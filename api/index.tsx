@@ -21,10 +21,6 @@ export const app = new Frog({
   // hub: neynar({ apiKey: 'NEYNAR_FROG_FM' })
 })
 
-function Example() {
-  return <Image src={`${BASE_URL}/frame_init.png`} />
-}
-
 app.frame('/', (c) => {
 
   const { buttonValue, inputText, status } = c
